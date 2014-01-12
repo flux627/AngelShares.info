@@ -55,7 +55,7 @@ Current AngelShares Value: $btc_ags_today_cur AGS/" . $email['currency'] . "
 For more info, please check http://angelshares.info regularly.";
 
 	// set up amazon SES
-	$ses = new SimpleEmailService('AKIAIBU3OV5SJPTVNXWA', 'pN0z6xx6gNX+vOe9Yvyj3sSNAOiNZ4C08G7c0Ekp');
+	$ses = new SimpleEmailService('pubkey', 'privkey');
 	$m = new SimpleEmailServiceMessage();
 	$m->addTo($email['email']);
 	$m->setFrom('noreply@angelshares.info');
