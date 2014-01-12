@@ -1,0 +1,295 @@
+
+body, html {
+    background:#F9F9F9;
+    margin:0;
+    padding:0;
+    font-family:Arial;
+}
+
+#warning {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: red;
+}
+
+#wrap {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    width:100%;
+}
+
+#logo {
+    float:left;
+    background-image: url('img/logo2.png');
+    width:416px;
+    height:85px;
+}
+
+#nav-contain {
+    padding-top: 43px;
+}
+
+#navbar {
+    margin:0px auto 5px auto;
+    clear: both;
+    display: table;
+    -webkit-padding-start: 0 !important;
+}
+
+#navbar li {
+    margin:0 5px 0 5px;
+    display:inline-block;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    padding:7px 14px;
+    text-decoration:none;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #73AEF1), color-stop(100%, #5B7CB1) );
+    background:-moz-linear-gradient( center top, #73AEF1 5%, #5B7CB1 100% );
+    background:-ms-linear-gradient( top, #73AEF1 5%, #5B7CB1 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#73AEF1', endColorstr='#5B7CB1');
+    background-color:#73AEF1;
+    color:#ffffff;
+    text-shadow:1px 1px 0px #1570cd;
+}
+
+#navbar li:hover {
+}
+
+#navbar li:active {
+    position:relative;
+    top:1px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #5B7CB1), color-stop(100%, #73AEF1) );
+    background:-moz-linear-gradient( center top, #5B7CB1 5%, #73AEF1 100% );
+    background:-ms-linear-gradient( top, #5B7CB1 5%, #73AEF1 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5B7CB1', endColorstr='#73AEF1');
+    background-color:#5B7CB1;
+}
+
+#content {
+    clear: both;
+    background-color: white;
+    padding: 25px 30px 25px 30px;
+    border-radius: 20px;
+    -moz-border-radius: 15px;
+    border: 2px solid #BFBFBF;
+    min-height: 340px;
+}
+
+.title {
+    font-size: 28px;
+    margin: 10px 1px;
+    border-bottom: 3px black solid;
+    display: inline-block;
+}
+
+#curcont {
+    float: right;
+    margin: 0;
+}
+
+#curform {
+}
+
+#curselect {
+    font-size: 20px;
+    background: rgba(254,255,255,1);
+}
+
+#countdown-box {
+    width: 826px;
+    text-align: center;
+    border: 5px solid rgb(147, 177, 255);
+    float: left;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9EB1FF), to(#FFFFFF));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9EB1FF)), to(#FFFFFF)));
+    background: background: -moz-linear-gradient(top, #9EB1FF, #FFFFFF);
+    box-shadow: 1px 1px 2px rgb(213, 213, 213);
+    margin-bottom: 15px;
+}
+
+#countdown-text {
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    float: left;
+}
+
+#countdown {
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    float: right;
+    font-weight: bold;
+}
+
+#proto-ticker {
+	width: 400px;
+	text-align: center;
+	border: 5px solid rgb(139, 246, 255);
+	float: left;
+	min-height: 245px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9EF7FF), to(#FFFFFF));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9EF7FF)), to(#FFFFFF)));
+	background: background: -moz-linear-gradient(top, #9EF7FF, #FFFFFF); 
+	box-shadow: 1px 1px 2px rgb(213, 213, 213);
+    margin-bottom: 15px;
+}
+#bitcoin-ticker {
+    width:400px;
+    text-align: center;
+    float: right;
+    border: 5px solid rgb(253, 194, 67);
+    min-height: 245px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFC867), to(#FFFFFF));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFC867)), to(#FFFFFF)));
+	background: background: -moz-linear-gradient(top, #FFC867, #FFFFFF); 
+	box-shadow: 1px 1px 2px rgb(213, 213, 213);
+    margin-bottom: 15px;
+}
+
+.address {
+    font-size: 16px;
+    display: block;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre;
+}
+
+#today-stats {
+    border: 5px solid rgb(26, 218, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#D2FFCA), to(#FFFFFF));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D2FFCA)), to(#FFFFFF)));
+    background: background: -moz-linear-gradient(top, #D2FFCA, #FFFFFF);
+    box-shadow: 1px 1px 2px rgb(213, 213, 213);
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.stretch-box {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.equal-spaced {
+    width: 265px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+
+    text-align: center;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+#placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ticker {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.ticker-sub {
+    font-style: italic;
+    margin-top: -12px;
+    margin-bottom: 31px;
+}
+
+.ticker-num {
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+#totalv {
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.left-chart {
+    clear:left;
+    height:300px;
+    width:415px;
+    display: inline-block;
+}
+
+.right-chart {
+    clear:right;
+    width:415px;
+    height:300px;
+    float:right;
+    display: inline-block;
+}
+
+.full-chart {
+    clear:both;
+    height:300px;
+    margin: 10px 0;
+
+}
+
+#footer {
+    height:35px;
+}
+
+/* Lookup.php */
+
+#spacer {
+    height:130px;
+}
+
+#form {
+    text-align: center;
+}
+
+#addrinput {
+    width: 500px;
+    font-size: 20px;
+    padding: 6px;
+    text-align: center;
+}
+
+#addrsubmit {
+    font-size: 20px;
+}
+
+.intro {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#address {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#total-coin, #total-ags {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+

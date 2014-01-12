@@ -1,0 +1,168 @@
+
+#top {
+   margin: 0px;
+   /*padding: 20px 0 0 23px;*/
+}
+
+#txInfo {
+   display: inline-block;
+   border: 1px solid rgb(230, 230, 230);
+   background: #F7F7F7;
+   box-shadow: 0 2px 2px #F5F5F5, 0px 1px 0px rgb(252, 253, 255) inset;
+   -moz-box-shadow: 0 2px 2px #F5F5F5, 0px 1px 0px rgb(252, 253, 255) inset;
+   -webkit-box-shadow: 0 2px 2px #F5F5F5, 0px 1px 0px rgb(252, 253, 255) inset;
+   padding: 18px;
+   text-shadow: 1px 1px 1px rgb(240, 240, 240);
+}
+
+#txInfo.oldTxInfo{
+   display: inline-block;
+   background: -webkit-gradient(linear, left top, left bottom, from(#B2D8FF), to(#F0F7FF));
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B2D8FF)), to(#F0F7FF)));
+   background-position-x: initial;
+   background-position-y: initial;
+   background-size: initial;
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+   background: -moz-linear-gradient(top, #B2D8FF, #F0F7FF);
+   border: 1px solid rgb(142, 194, 252);
+   border-radius: 2px;
+   box-shadow: 0 2px 2px #F5F5F5, 0px 1px 0px rgb(216, 230, 255) inset;
+   padding: 18px;
+   text-shadow: 1px 1px 1px rgb(240, 240, 240);
+}
+
+#txDetails {
+} 
+
+#txInfoTitle {
+   text-align: left;
+}
+
+#txInfoWrapper {
+   display: inline-block;
+   position: relative;
+}
+
+#txInfoUnder {
+   text-align: center;
+   width: 100%;
+   position: absolute;
+   opacity: 0;
+   font-size: 11px;
+   color: #aaa;
+   transition-property: opacity .2s ease-out;
+   -moz-transition-property: opacity .21s ease-out; /* Firefox 4 */
+   -webkit-transition-property: opacity .21s ease-out; /* Safari and Chrome */
+   -o-transition-property: opacity .21s ease-out; /* Opera */
+   transition-duration: .21s;
+   transition-delay: .1s;
+   transition-timing-function: linear;
+   margin: 2px 0 0;
+}
+
+.innerPage { margin: 15px; }
+
+#txInfo h2.hash {
+   font-size: 18px;
+   letter-spacing: 1px;
+   color: #000;
+   text-shadow: 1px 1px 1px #8FACCA;
+   margin: 0 0 10px 0;
+}
+
+h2 span.hash { margin: 0 0 0 1px; color: #000; }
+
+table a:link {
+   font-weight: bold;
+   text-decoration:none;
+}
+table a:visited, table a {
+   color: #444;
+}
+table a:hover:visited {
+   color: #C85BD1;
+   font-weight:bold;
+   text-decoration:none;
+}
+table a:active,
+table a:hover {
+   color: #005AB0;
+   text-decoration:underline;
+}
+table {
+   font-family:Arial, Helvetica, sans-serif;
+   color:#666;
+   font-size:12px;
+   text-shadow: 1px 1px 0px #fff;
+   background:#eaebec;
+   border:#000 1px solid;
+   border-radius: 5px;
+   -moz-box-shadow: 0 1px 2px #d1d1d1;
+   -webkit-box-shadow: 0 1px 2px #d1d1d1;
+   box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+   padding: 11px 15px 12px 15px;
+   border-top: 1px solid #769BFF;
+   border-top: 1px solid #E7EDFF;
+   border-bottom: 1px solid #e0e0e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#86C4FF), to(#4387C7));
+   background: -moz-linear-gradient(top, #86C4FF, #4387C7);
+   color: white;
+   text-shadow: 1px 1px 1px black;
+}
+table th:first-child {
+   text-align: left;
+   padding-left:20px;
+}
+table tr:first-child th:first-child {
+}
+table tr:first-child th:last-child {
+}
+table tr {
+   text-align: center;
+   padding-left:20px;
+}
+table td:first-child {
+   text-align: left;
+   padding-left:20px;
+   border-left: 0;
+}
+table td {
+   padding:10px;
+   border-top: 1px solid #ffffff;
+   border-bottom:1px solid #e0e0e0;
+   border-left: 1px solid #e0e0e0;
+
+   background: #fafafa;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+   background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+   background: #f6f6f6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+   background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+   border-bottom:0;
+}
+table tr:last-child td:first-child {
+   -moz-border-radius-bottomleft:3px;
+   -webkit-border-bottom-left-radius:3px;
+   border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+   -moz-border-radius-bottomright:3px;
+   -webkit-border-bottom-right-radius:3px;
+   border-bottom-right-radius:3px;
+}
+table tr:hover td {
+   background: #f2f2f2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+   background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);  
+}
